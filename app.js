@@ -2,7 +2,7 @@ const express = require('express')
 const morgan = require('morgan')
 const path = require('path')
 const router = require('./routes/index')
-
+const ejs = require('ejs')
 const app = express()
 
 app.set('port', 5050)
