@@ -1,6 +1,5 @@
 const express = require('express')
 const morgan = require('morgan')
-const ejs = require('ejs')
 const path = require('path')
 const router = require('./routes/index')
 
